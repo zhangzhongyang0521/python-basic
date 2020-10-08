@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+# coding=utf-8
 '''
     @ description: according to height and weight to calc BMI
     @ author: tony.zhang
@@ -23,7 +24,7 @@ if 18.5 < bmi < 24.9:
 if 24.9 < bmi < 29.9:
     print("over weight")
 if bmi >= 29.9:
-    print("to fat")
+    print("too fat")
 
 # over size content process,use () to link
 content = ("Equivalent to base**exp with 2 arguments or base**exp % mod with 3 arguments"
